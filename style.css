@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+ul {
+    list-style: none
+}
+
 #banner {
     background-color: var(--preto);
     color: var(--laranja);
@@ -56,4 +60,29 @@ form input {
 .botao:active {
 	position: relative;
 	top:1px;
+}
+
+
+#viagem {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+#viagem-imagem {
+    height: 100px;
+    width: 100px;
+}
+
+#viagem-coluna {
+    width: 290px;
+}
+
+
+
+
+.beneficio-icon {
+    height: 50px;
+    width: 50px;
 }
